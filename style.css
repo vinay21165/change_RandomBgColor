@@ -1,0 +1,92 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #282c34;
+    transition: background-color 1s ease-in-out;
+}
+
+/* Centered H1 Box */
+h1 {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    backdrop-filter: blur(5px);
+    transition: transform 0.3s ease-in-out;
+}
+
+h1:hover {
+    transform: scale(1.05);
+}
+
+/* Buttons Styling */
+button {
+    margin: 15px;
+    padding: 12px 24px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Start Button Animation */
+#start {
+    background: linear-gradient(45deg, #28a745, #66ff66);
+    color: white;
+}
+
+#start:hover {
+    background: linear-gradient(45deg, #22cc55, #33ff77);
+    transform: scale(1.1);
+}
+
+/* Stop Button Animation */
+#stop {
+    background: linear-gradient(45deg, #dc3545, #ff6666);
+    color: white;
+}
+
+#stop:hover {
+    background: linear-gradient(45deg, #cc2233, #ff4444);
+    transform: scale(1.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 20px;
+        padding: 15px;
+    }
+
+    button {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+}
+#colorCode {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-top: 10px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+}
+
+#colorCode:hover {
+    transform: scale(1.1);
+}
