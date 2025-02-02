@@ -7,8 +7,7 @@ The current color code is displayed in real-time.
 ---
 
 ## 🚀 Live Demo  
-[🔗 View Project](change_RandomBgColor/change-random-bg-color-6lt2dwsdn.vercel.app)
-
+[ view live](https://change-random-bg-color.vercel.app/)
 ---
 
 ## 📌 Features  
